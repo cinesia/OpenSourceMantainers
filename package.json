@@ -1,0 +1,19 @@
+{
+  "name": "opensourcemantainers",
+  "version": "0.0.0",
+  "description": "Test project for Workshop Fest",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrea Cinesi",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cinesia/opensourcemantainers.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cinesia/opensourcemantainers/issues"
+  },
+  "homepage": "https://github.com/cinesia/opensourcemantainers#readme"
+}

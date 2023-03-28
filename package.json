@@ -4,6 +4,10 @@
   "description": "Test project for Workshop Fest",
   "main": "index.js",
   "scripts": {
+    "format-code": "prettier --write . --ignore-unknown",
+    "lint-code": "prettier --check .",
+    "lint-commit": "commitlint --from=HEAD~1",
+    "prepare": "husky install",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Andrea Cinesi",
@@ -15,5 +19,10 @@
   "bugs": {
     "url": "https://github.com/cinesia/opensourcemantainers/issues"
   },
-  "homepage": "https://github.com/cinesia/opensourcemantainers#readme"
+  "homepage": "https://github.com/cinesia/opensourcemantainers#readme",
+  "devDependencies": {
+    "commitlint": "^17.5.1",
+    "husky": "^8.0.3",
+    "prettier": "2.8.7"
+  }
 }

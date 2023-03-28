@@ -2,7 +2,9 @@
 
 Description of the project
 
-link to documentation [link](https://git)
+Link to documentation [link](https://git)
+
+Link [CONTRIBUTING](CONTRIBUTING.md)
 
 ## Installation
 
